@@ -1,0 +1,28 @@
+{
+  "name": "automationutilities/local-product-opt",
+  "description": "Connects Shopware to a local Python AI microservice for GDPR-compliant German SEO description optimization",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nawar16",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.6.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "LocalProductOptPlugin\\LocalProductOptPlugin",
+    "label": {
+      "de-DE": "AI Produkt Beschreibung-Optimierer",
+      "en-GB": "AI Product Description Optimizer"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "LocalProductOptPlugin\\": "src/"
+    }
+  }
+}
