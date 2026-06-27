@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://w3.org"
+        xsi:noNamespaceSchemaLocation="https://githubusercontent.com">
+    <card>
+        <title>Local AI Python API Settings</title>
+        <title de-DE>Lokale KI Python API Einstellungen</title>
+
+        <input-field type="text">
+            <name>apiEndpoint</name>
+            <label>Python Microservice Base URL</label>
+            <label de-DE>Python Microservice Basis-URL</label>
+            <defaultValue>http://127.0.0.1:8000</defaultValue>
+        </input-field>
+    </card>
+</config>
