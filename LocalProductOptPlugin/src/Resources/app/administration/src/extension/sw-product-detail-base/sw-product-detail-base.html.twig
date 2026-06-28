@@ -1,0 +1,14 @@
+{% block sw_product_detail_base_basic_info_card %}
+    <sw-card title="AI Content Optimizer" position-identifier="local-product-opt-card">
+        <p>Call the optimizer service to rewrite and optimize this product's title, description, and metadata dynamically</p>
+        <sw-button-process
+            :isLoading="isOptimizing"
+            :processSuccess="false"
+            variant="primary"
+            @click="onOptimizeProduct">
+            Optimize Product with AI
+        </sw-button-process>
+    </sw-card>
+    
+    {% parent %}
+{% endblock %}
