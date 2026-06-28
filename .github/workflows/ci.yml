@@ -34,7 +34,8 @@ jobs:
       - name: Build and package LocalProductOptPlugin
         uses: shopware/build-extension-zip-action@v1
         with:
-          extension-path: 'LocalProductOptPlugin'
+          path: 'LocalProductOptPlugin'     
+          disable-git: true  
 
       - name: Upload production ZIP artifact
         uses: actions/upload-artifact@v4
