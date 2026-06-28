@@ -1,6 +1,9 @@
 
 This repository contains independent Shopware extensions designed to connect a Shopware e-commerce store to self-hosted Python microservices.
 
+![CI](https://github.com/nawar16/ShopwareAutomationUtilities/actions/workflows/ci.yml/badge.svg)
+
+
 ### **Prerequisite**
 These extensions require the core microservices hosted in the companion repository: 
 [Automation Utilities](https://github.com/nawar16/AutomationUtilities)
