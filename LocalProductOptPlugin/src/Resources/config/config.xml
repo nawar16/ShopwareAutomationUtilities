@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://w3.org"
+        xsi:schemaLocation="http://symfony.com http://symfony.com/config.xsd">
+    <card>
+        <title>API Settings</title>
+        <title de-DE="API Einstellungen"/>
+        
+        <input-field type="text">
+            <name>apiEndpoint</name>
+            <label>FastAPI Processing Node URL</label>
+            <label de-DE="FastAPI Verarbeitungsknoten-URL"/>
+            <placeholder>http://127.0.0.1:8000</placeholder>
+        </input-field>
+    </card>
+</config>
