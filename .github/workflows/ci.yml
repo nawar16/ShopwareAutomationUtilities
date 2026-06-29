@@ -37,8 +37,14 @@ jobs:
           path: 'LocalProductOptPlugin'     
           disable-git: true  
 
+      - name: Build and Package TaxVatValidatorPlugin
+        uses: shopware/build-extension-zip-action@v1
+        with:
+          path: 'TaxVatValidatorPlugin'
+          disable-git: true
+
       - name: Upload production ZIP artifact
         uses: actions/upload-artifact@v4
         with:
-          name: LocalProductOptPlugin-Release
-          path: LocalProductOptPlugin*.zip
+          name: Shopware-Plugins-Release
+          path: '*.zip'
