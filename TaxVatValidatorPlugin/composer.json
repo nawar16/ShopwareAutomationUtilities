@@ -1,0 +1,28 @@
+{
+  "name": "automationutilities/tax-vat-validator",
+  "description": "Connects Shopware to a local Python validation utility for tax ids validation",
+  "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nawar16",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.6.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "TaxVatValidatorPlugin\\TaxVatValidatorPlugin",
+    "label": {
+      "en-GB": "Tax VAT Verification",
+      "de-DE": "USt-IdNr. Validierungs"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "TaxVatValidatorPlugin\\": "src/"
+    }
+  }
+}
